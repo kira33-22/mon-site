@@ -3,50 +3,109 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TechAssist | Informatique</title>
+<meta name="description" content="Assistance informatique, installation, optimisation PC et conseils de sécurité numérique autour de Lunel et Montpellier.">
+<title>TechAssist | Assistance informatique</title>
 <link rel="stylesheet" href="style.css">
 <script src="script.js" defer></script>
 </head>
+
 <body>
-<header>
-<h2>TechAssist<span>.</span></h2>
+<header class="header">
+<a class="logo" href="#accueil">TechAssist<span>.</span></a>
 <nav>
 <a href="#services">Services</a>
+<a href="#apropos">À propos</a>
 <a href="#contact">Contact</a>
 </nav>
 </header>
 
 <main>
-<section class="hero">
-<p>INFORMATIQUE · MONTPELLIER</p>
-<h1>Votre informatique,<br>en toute simplicité.</h1>
-<p>Assistance informatique, optimisation PC et sécurité numérique.</p>
-<a class="button" href="#contact">Me contacter</a>
+<section class="hero" id="accueil">
+<p class="eyebrow">ASSISTANCE INFORMATIQUE · LUNEL & MONTPELLIER</p>
+<h1>Votre informatique.<br><span>En toute simplicité.</span></h1>
+<p class="intro">
+Une aide claire pour installer, entretenir et mieux sécuriser
+votre ordinateur. Des solutions adaptées à vos besoins.
+</p>
+<div class="actions">
+<a class="button" href="#contact">Demander un devis</a>
+<a class="secondary-button" href="#services">Découvrir les services</a>
+</div>
+<p class="note">Prestations sur rendez-vous · Tarifs annoncés avant intervention</p>
 </section>
 
-<section id="services">
-<h2>Mes services</h2>
-<article>
+<section class="section" id="services">
+<p class="eyebrow">MES PRESTATIONS</p>
+<h2>Comment puis-je vous aider ?</h2>
+<p class="section-intro">
+Des services informatiques de proximité, expliqués simplement.
+</p>
+
+<div class="cards">
+<article class="card">
+<div class="number">01</div>
 <h3>Assistance informatique</h3>
-<p>Installation de logiciels et aide aux problèmes courants.</p>
+<p>
+Aide à la configuration de votre ordinateur, installation
+de logiciels et résolution de problèmes courants.
+</p>
 </article>
-<article>
+
+<article class="card">
+<div class="number">02</div>
 <h3>Optimisation PC</h3>
-<p>Conseils pour améliorer les performances de votre ordinateur.</p>
+<p>
+Vérification des programmes au démarrage, nettoyage logiciel
+adapté et conseils pour améliorer les performances.
+</p>
 </article>
-<article>
+
+<article class="card">
+<div class="number">03</div>
 <h3>Sécurité numérique</h3>
-<p>Mises à jour, protection des comptes et bonnes pratiques.</p>
+<p>
+Aide à la mise à jour des logiciels, activation des protections
+disponibles et conseils pour sécuriser vos comptes.
+</p>
 </article>
+</div>
 </section>
 
-<section id="contact">
-<h2>Me contacter</h2>
-<p>Contactez-moi pour présenter votre besoin.</p>
-<a class="button" href="mailto:contact@example.com">Envoyer un e-mail</a>
+<section class="section about" id="apropos">
+<p class="eyebrow">À PROPOS</p>
+<h2>Une informatique plus accessible.</h2>
+<p>
+Je développe mes compétences en informatique et en cybersécurité
+avec une approche pratique, transparente et pédagogique.
+Chaque intervention commence par comprendre votre besoin.
+</p>
+<ul>
+<li>Explications compréhensibles</li>
+<li>Respect de vos données personnelles</li>
+<li>Accord sur la prestation avant intervention</li>
+</ul>
+</section>
+
+<section class="section contact" id="contact">
+<p class="eyebrow">CONTACT</p>
+<h2>Parlons de votre besoin.</h2>
+<p>
+Décrivez votre problème ou le service recherché.
+Je pourrai vous répondre et vous proposer la suite adaptée.
+</p>
+<a class="button" href="mailto:TON-EMAIL@example.com?subject=Demande%20de%20renseignement">
+Demander un renseignement
+</a>
+<p class="note">
+Remplace l'adresse e-mail de démonstration par ton adresse professionnelle.
+</p>
 </section>
 </main>
 
-<footer>© <span id="year"></span> TechAssist</footer>
+<footer>
+<p>© <span id="year"></span> TechAssist</p>
+<p>Assistance informatique autour de Lunel et Montpellier.</p>
+<p><a href="mentions-legales.html">Mentions légales</a></p>
+</footer>
 </body>
 </html>
